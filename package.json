@@ -6,7 +6,7 @@
   "scripts": {
     "test": "test",
     "init": "tsc --init",
-    "start": "nodemon server.ts"
+    "start": "nodemon index.ts"
   },
   "author": "imsaptarshi",
   "license": "MIT",
