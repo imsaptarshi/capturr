@@ -9,7 +9,7 @@ router.route("/").get((req: express.Request | any, res: express.Response) => {
         <head>
         <meta
         property="og:image:alt"
-        content="${req.API_ENDPOINT}/?api_key=${req.API_KEY}&url=${req.query.url}"
+        content="${req.query.url}"
       />
             <meta property="og:image" content="${req.API_ENDPOINT}/?api_key=${req.API_KEY}&url=${req.query.url}" />
             <meta name="title" content="Capturr" />
@@ -24,7 +24,7 @@ router.route("/").get((req: express.Request | any, res: express.Response) => {
               <meta property="og:type" content="website" />
               <meta
                 property="og:title"
-                content="Orbits - Research | Learn | Share"
+                content="Capturr"
               />
               <meta
                 property="og:description"
